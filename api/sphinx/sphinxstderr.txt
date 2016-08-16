@@ -1,0 +1,58 @@
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.biz.RemoteBizobj.RemoteBizobj.rst:1898: ERROR: Unexpected indentation.
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.biz.RemoteBizobj.RemoteBizobj.rst:1899: WARNING: Block quote ends without a blank line; unexpected unindent.
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.biz.dAutoBizobj.dAutoBizobj.rst:1888: ERROR: Unexpected indentation.
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.biz.dAutoBizobj.dAutoBizobj.rst:1889: WARNING: Block quote ends without a blank line; unexpected unindent.
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.biz.dBizobj.dBizobj.rst:1546: ERROR: Unexpected indentation.
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.biz.dBizobj.dBizobj.rst:1547: WARNING: Block quote ends without a blank line; unexpected unindent.
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.db.dbMsSQL.MSSQL.rst:328: ERROR: Unexpected indentation.
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.lib.autosuper_module.rst:28: WARNING: toctree glob pattern u'dabo.lib.autosuper*' didn't match any documents
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.lib.datanav.Bizobj.Bizobj.rst:1893: ERROR: Unexpected indentation.
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.lib.datanav.Bizobj.Bizobj.rst:1894: WARNING: Block quote ends without a blank line; unexpected unindent.
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dDatePicker.dDatePicker.rst:258: ERROR: Unexpected indentation.
+<autodoc>:0: WARNING: duplicate object description of dabo.ui.uiwx.dPdfWindow.Dummy, other instance in /home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dPdfWindow.Dummy.rst, use :noindex: for one of them
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dPdfWindow.PDFWindow.rst:10: WARNING: duplicate label dabo.ui.uiwx.dpdfwindow.dummy, other instance in /home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dPdfWindow.Dummy.rst
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.object_inspector_module.rst:28: WARNING: toctree glob pattern u'dabo.ui.uiwx.object_inspector*' didn't match any documents
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.version_module.rst:28: WARNING: toctree glob pattern u'dabo.version*' didn't match any documents
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.version_module.rst:: WARNING: document isn't included in any toctree
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dCollapsiblePanel.dCollapsiblePanel.rst:31: WARNING: undefined label: wx.lib.agw.pycollapsiblepane.pycollapsiblepane (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dForm.dForm.rst:32: WARNING: undefined label: dform_6062 (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dNumericBox.dNumericBox.rst:28: WARNING: undefined label: wx.lib.masked.numctrl.numctrl (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dPageFrame.dPageStyled.rst:32: WARNING: undefined label: wx.lib.agw.flatnotebook.flatnotebook (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:26: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:1940: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:1966: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2045: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2104: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2117: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2238: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2249: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2331: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2579: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2605: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2702: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2766: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2914: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:2986: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3072: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3130: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3143: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3169: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3195: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3208: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3238: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3251: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3264: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3345: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3363: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3377: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3436: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3447: WARNING: undefined label: wx.py.editwindow.editwindow (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3473: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3578: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3591: WARNING: undefined label: wx.py.editwindow.editwindow (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3654: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3770: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3785: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3798: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3811: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)
+/home/ed/projects/dabodoc/api/sphinx/source/dabo.ui.uiwx.dShell.dShell.rst:3827: WARNING: undefined label: wx.py.shell.shell (if the link has no caption the label must precede a section header)

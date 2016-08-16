@@ -1,0 +1,45 @@
+#!/bin/sh
+
+PREREQ=""
+DESCRIPTION="Setting up Dabo examples..."
+
+. /scripts/functions
+
+prereqs()
+{
+       echo "$PREREQ"
+}
+
+case $1 in
+# get pre-requisites
+prereqs)
+       prereqs
+       exit 0
+       ;;
+esac
+
+log_begin_msg "$DESCRIPTION"
+
+# Remove the ubuntu examples and install links
+rm -rf /root/home/ubuntu/Desktop/*
+
+# Add the dabo examples to the desktop:
+cp /root/usr/share/applications/dabo* /root/home/ubuntu/Desktop
+
+# link to the dabo directories
+cd /root/home/ubuntu
+ln -s /usr/lib/dabodemo dabodemo
+ln -s /usr/lib/daboide daboide
+ln -s /usr/lib/dabo dabo
+
+# copy the sqlite db over to home, so it is in ramdisk at runtime
+# (therefore writable)
+cp /root/usr/lib/dabo-sqlite.db .
+
+# provide graphical links to the source dirs on the desktop
+cd Desktop
+ln -s ../dabo Dabo\ Source
+ln -s ../dabodemo Dabo\ Demo\ Source
+ln -s ../daboide Dabo\ IDE\ Source
+
+log_end_msg

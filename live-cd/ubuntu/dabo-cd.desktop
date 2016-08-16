@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Encoding=UTF-8
+Name=Class Designer
+Exec=python /home/ubuntu/daboide/ClassDesigner.py
+Icon=/home/ubuntu/dabo/dabo/icons/daboIcon032.png
+Terminal=false
+Categories=GTK;System;Settings;
+OnlyShowIn=GNOME;XFCE;
+X-Ubuntu-Gettext-Domain=ubiquity

@@ -1,0 +1,62 @@
+How to make a Dabuntu Live CD. Not all steps need to be done in the specified
+order. Time-permitting, it would be great to automate all these steps but for
+now this is what we have.
+
++ Download a live cd image iso from the Ubuntu website.
+
++ Download reconstructor and run it against the downloaded iso. Check all
+  boxes to do the one-time creations of the various image structures.
+
++ copy dabo*.desktop to <reconstructor>/root/usr/share/applications
+
++ copy 97dabo to <reconstructor>/initrd/scripts/casper-bottom and make sure
+  it is executable (chmod 755, for example)
+
++ Get the latest dabo, daboide, and dabodemo tarballs, and extract to 
+  <reconstructor>/root/usr/lib. You should have directories /usr/lib/dabo,
+  etc.
+
++ Grab the webtest.sqlite file and save to /usr/lib/dabo-sqlite.db
+
++ copy dabo.pth to <reconstructor>/root/usr/lib/python2.4/site-packages
+
++ copy sources.list to <reconstructor>/root/etc/apt, replacing the existing
+  one (or manually add the wxpython starship entries)
+
++ Download the Dabo Runtime Installer for Windows, and place in 
+  <reconstructor>/remaster/programs/dabo/
+
++ Start reconstructor again, not checking any boxes, and not specifying 
+  the input iso. Or, perhaps reconstructor is still running, which is just
+  fine. When it is done starting up, click on the Terminal button on the 
+  bottom.
+
+  + apt-get update
+  + apt-get install python-mysqldb
+  + apt-get install python-pysqlite2
+  + apt-get install python-wxgtk2.6 python-wxtools wx2.6-i18n
+
+  + It is necessary to remove some stuff, unfortunately, to stay within 
+    the size limitations of CD-R's.
+
+    + apt-get remove gimp openoffice.org openoffice.org2 gaim ekiga evolution
+    + apt-get autoclean
+    + apt-get clean
+
++ Exit the Reconstructor terminal and go back to the reconstructor gtk
+  window, to the "Software" tab. Click on "Software Removal" and check all
+  the boxes. I have no idea why this results in more savings than the
+  apt-get remove operations above, but it does. Press "Apply".
+
++ Press "Next" button. Change the CD description appropriately
+  as whatever you put there will be very visible to the user. Press
+  "Finish" and wait forever (make a sandwich or two), crossing your 
+  fingers that your iso won't be too big for the cd. If it turns out it 
+  is, you can remove the win32 setup files or manually delete stuff 
+  from <reconstructor>/root.
+
++ Use your cd recorder to burn the custom iso and do a test-boot. Start
+  figuring out what art project to make out of all your coasters. ;)
+
++ The cd label was done in OpenOffice.org, if you want to use it as
+  a template... *.odg.

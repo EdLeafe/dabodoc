@@ -1,0 +1,127 @@
+.. |doc_title| image:: _static/doc_title.png
+   :align: top
+   :width: 32
+
+.. |description| image:: _static/Description.png
+   :align: top
+   :width: 32
+
+.. |stats| image:: _static/Stats.png
+   :align: top
+   :width: 32
+
+.. |other_info| image:: _static/Other_Info.png
+   :align: top
+   :width: 32
+
+.. |table_contents| image:: _static/Table_Contents.png
+   :align: top
+   :width: 32
+
+.. |indices| image:: _static/Indices.png
+   :align: top
+   :width: 32
+
+.. |2to3| image:: _static/Python.png
+   :align: top
+   :width: 32
+
+.. |method_summary| image:: _static/Method_Summary.png
+   :align: top
+   :width: 32
+
+.. |class_summary| image:: _static/Class_Summary.png
+   :align: top
+   :width: 32
+
+.. |appearance| image:: _static/Appearance.png
+   :align: top
+   :width: 32
+
+.. |API| image:: _static/API.png
+   :align: top
+   :width: 32
+
+.. |hierarchy| image:: _static/Class_Hierarchy.png
+   :align: top
+   :width: 32
+
+.. |events| image:: _static/Events.png
+   :align: top
+   :width: 32
+
+.. |platforms| image:: _static/Platforms.png
+   :align: top
+   :width: 32
+
+.. |settings| image:: _static/Settings.png
+   :align: top
+   :width: 32
+
+.. |styles| image:: _static/Window_Styles.png
+   :align: top
+   :width: 32
+
+.. |extra_styles| image:: _static/Window_Extra_Styles.png
+   :align: top
+   :width: 32
+
+.. |usage| image:: _static/Usage.png
+   :align: top
+   :width: 32
+
+.. |license| image:: _static/License.png
+   :align: top
+   :width: 32
+
+.. |link| image:: _static/Link.png
+   :align: top
+   :width: 32
+
+.. |todos| image:: _static/todo_big.png
+   :align: top
+   :width: 32
+
+.. |vision| image:: _static/vision.png
+   :align: top
+   :width: 32
+
+.. |whatsnew| image:: _static/whatsnew.png
+   :align: top
+   :width: 32
+
+.. |layers| image:: _static/Layout.png
+   :align: top
+   :width: 32
+
+.. |backward| image:: _static/Backward.png
+   :align: top
+   :width: 32
+
+.. |subclasses| image:: _static/SubClasses.png
+   :align: top
+   :width: 32
+
+.. |supclasses| image:: _static/SuperClasses.png
+   :align: top
+   :width: 32
+
+.. |svn| image:: _static/svn.gif
+   :align: top
+   :width: 32
+
+.. |file_info| image:: _static/file_info.png
+   :align: top
+   :width: 32
+
+.. |svn_log| image:: _static/svn_log.png
+   :align: top
+   :width: 32
+
+.. |svn_diff| image:: _static/svn_diff.gif
+   :align: top
+   :width: 32
+
+.. |svn_main| image:: _static/svn_main.gif
+   :align: top
+   :width: 32

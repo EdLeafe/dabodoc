@@ -1,0 +1,163 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX Template Version 2.3
+%%
+%% Nathan Lowrie
+%% The Widget Foundry
+%%
+%% (C)2007 - Free for personal use, please email me improvements to
+%% solodex2151@gmail.com
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Preamble
+    % Packages included
+    \documentclass[letterpaper,10pt]{RevisedBook}
+    \usepackage{ifthen}
+    \usepackage[ansinew]{inputenc}
+%     \usepackage{graphics}
+    \usepackage{fancyhdr}
+    \usepackage{amsmath}	
+     \usepackage[final]{graphicx}
+     \usepackage{supertabular}
+    
+    \oddsidemargin 0in
+    \evensidemargin 0in
+    \textwidth 6.5in
+    
+    \pagestyle{fancy}
+    \sloppy
+    \nonfrenchspacing
+    \renewcommand{\baselinestretch}{1.0}
+    \clubpenalty=9999    % Not higher!
+    \widowpenalty=9999   % Not higher!
+    \setcounter{secnumdepth}{4}
+    \setcounter{tocdepth}{3}
+%    \makeindex
+    \addtolength{\skip\footins}{5mm}
+
+% Some custom macros
+    % Titlerule is a FAT ruler
+    \newcommand{\titlerule}{\rule{\linewidth}{1.5mm}}
+
+    % For comments in the draft - work in progress
+    \newcommand{\betainsert}[2]{\fbox{#1}\marginnote{\textsf{#2}}}
+
+    % Notes in the margin are nicer this way.
+    \newcommand{\marginnote}[1]{\marginpar{\scriptsize\raggedright #1}}
+
+% Do you want to have the possibility of including color in your PDFs?
+    \usepackage{color}
+
+% Check if in PDFLaTeX or ``normal''
+    \newif\ifpdf
+      \ifx\pdfoutput\undefined
+      \pdffalse
+    \else
+      \pdfoutput=1
+      \pdftrue
+    \fi
+
+%Define variables
+\renewcommand{\title}{The Dabo Book}				%Title Goes Here
+\newcommand{\subtitle}{3-Tier Applications Made Easy}	%Subtitle Goes Here
+\renewcommand{\author}{Paul McNett, Nathan Lowrie}					%Author Goes Here
+\newcommand{\copyrightHolder}{Ed Leafe, Paul McNett, et. al.}	%Copyright Holder Goes Here
+\newcommand{\subject}{3-tier desktop applications}					%Subject Goes Here
+\newcommand{\keywords}{Dabo, Python, database}					%Keywords go here
+    
+% Set up PDF specific. These are used when the file is compiled with 
+% pdflatex instead of ordinary latex.
+    \ifpdf
+      % if PDFLaTeX use these parameters
+      \usepackage[pdftex,colorlinks=true,urlcolor=blue,pdfstartview=FitH]{hyperref}
+      \pdfcompresslevel=9
+      \hypersetup{
+			pdftitle={\title},			%Enter title here
+			pdfauthor={\author},				%Enter Author here
+			pdfsubject={\subject},		%Enter Subject here
+			pdfkeywords={\keywords}		%Enter Keywords here
+      } 
+    \else
+      % Ordinary tex use these parameters
+      \usepackage{hyperref}
+    \fi
+   
+\begin{document}
+
+\frontmatter									% only in book class (roman page #s)
+
+% Making a nice TITLEPAGE
+\begin{titlepage}
+    \thispagestyle{empty}
+    \begin{center}
+%    \includegraphics[width= 8cm]{logo}			%Uncomment if you want a logo graphic
+    \end{center}
+    \vspace*{\stretch{1}}
+    \begin{center}
+        \titlerule\\[3mm]
+        \Huge \textsc{\title\\\subtitle}\\[5mm]		%Enter Title and subtitle here
+        \begin{center}
+		\huge \author\\[3.5mm]						%Enter company or person authoring
+    	\end{center}
+       	\titlerule\\
+    \end{center}
+    \scriptsize \today
+    \vspace*{\stretch{2}}
+    \begin{center}
+        \textcopyright 2004-2007 \copyrightHolder			%Enter company or person for copyright here
+    \end{center}
+\end{titlepage}
+
+\pagestyle{fancy}                         %Forces the page to use the fancy template
+
+% Setting up pagestyles for ``fancy''
+\setlength\headheight{23.11pt}
+\renewcommand{\chaptermark}[1]{\markboth{\emph{#1}}{}}%\textbf{Chapter \thechapter}:\ \emph{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ \boldmath\textbf{#1}\unboldmath}}
+                                          %The text used in the header is determined by the arguments to the \markboth
+                                          % and \markright commands used here. The chapter information will appear as the
+                                          % chapter number in bold, followed by a dot and a space, followed by the chapter
+                                          % title (dealt with by LaTeX---no user intervention needed here) in italics. The
+                                          % section information will appear as the section number, followed by a space, and
+                                          % then the section title (again generated automatically) in bold. Any maths in
+                                          % the section title will also appear in bold (provided the bold font exists).
+\fancyhf{}                                %Clears all header and footer fields, in preparation.
+\fancyhead[LO, RE]{\textbf{\title}\\\textbf{\subtitle}}
+                                          %Displays the Title and subtitle the header,
+                                          % to the left on odd pages and to the right on even pages.
+\fancyhead[LE, RO]{\nouppercase{\leftmark}}   %Displays the upper-level (chapter) information---
+                                          % as determined above---in non-upper case in the header, to the left on even pages.
+						                  %Displays the lower-level (section) information---as
+                                          % determined above---in the header, to the right on odd pages.
+% \fancyfoot[c]{\textcopyright\ 2004-2007 \copyrightHolder}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,RE]{\today}
+\renewcommand{\headrulewidth}{1.3pt}      %Underlines the header. (Set to 0pt if not required).
+\renewcommand{\footrulewidth}{1.3pt}      %Underlines the footer. (Set to 0pt if not required).
+
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+
+% --- DOCUMENT START ---
+
+
+\input{Preface}
+
+\fancyhead[RO]{Chapter \thechapter}
+
+\mainmatter                             % only in book class (arabic page #s)
+\newpage
+
+%Put your parts and chapters here
+\input{Introduction/Introduction}
+\input{Tutorials/Tutorials}
+
+
+%This section reserved for bibliography and index
+\backmatter
+
+%\include{bibliography}  % include bibliography
+%\include{index}         % include index
+
+\end{document}                          % The required last line

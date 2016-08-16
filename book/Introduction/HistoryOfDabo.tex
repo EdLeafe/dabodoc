@@ -1,0 +1,83 @@
+%History of Dabo Chapter
+
+\chapter{History of Dabo}
+
+Dabo is the result of a few years of research, starting in 2001 when I started taking 
+an active interest in the Linux operating system and open source software in general. 
+I had been using Microsoft Visual FoxPro to develop data-aware business applications 
+for my clients, and with mixed messages coming from Microsoft and the FoxPro 
+community as to the long-term viability of FoxPro as a product, I started looking for 
+alternatives from the open source community, alternatives that would permit the 
+development of powerful database applications for multi-platform deployment.
+
+My quest led me first to Borland Delphi, which had just recently announced a 
+prerelease version of Kylix, the Linux version of Delphi. This product would allow 
+deployment of a semi-common codebase to one flavor of Linux (RedHat 7.x) and 
+Windows. It had good data-aware controls, but only in the Enterprise version. The 
+execution performance was pitiful, and code wasn't truly portable between platforms. 
+The lack of a commitment from Borland to support Macintosh was the straw that 
+made me look elsewhere.
+
+The next stop was to take a serious look at Java, which does have a clean and 
+elegant language and does run pretty much equally on all platforms, thanks to the 
+Java Virtual Machine. I developed some prototype applications using the Swing 
+components which performed equally horribly on all three platforms. But, it was easy 
+development and deployment, although database integration was pretty obtuse 
+compared to what I was used to in Visual FoxPro. My overall feeling was that Java 
+may really take over the world, but it has a long way to go performance-wise, and 
+it really isn't fun to code.
+
+Somewhere about this time, I found out that Kylix was using a toolkit called Qt to 
+provide the user interface components, and that Kylix was using the last-generation 
+(Qt 2.x) instead of the newer, much nicer Qt 3.x version. I downloaded the GPL'd 
+version of Qt for Linux, and followed some tutorials, and was able to build some very i
+mpressive C++ applications that performed very well. I never got my head around 
+C++, however, so I felt like I'd be painting myself into a corner by pursuing this 
+angle. Also, database support required the Enterprise version of Qt, which is 
+something like \$1200 per platform. Hardly free and open source.
+
+Eventually, I came to know of a programming language called Python, which Ed 
+Leafe had been using to power his website using a product called Zope. I found 
+Python to be very intuitive to learn, with an easy readable syntax not unlike FoxPro. 
+Python, on top of being free and open source, also comes with "batteries included", 
+meaning that most everything you'd want to do comes in the standard library, 
+including building user interfaces. Python also comes with three native data types 
+that have to do with sequences - in other words, Python can represent database 
+tables and fields natively. Come to find out, Python also provides an API for 
+connecting to all kinds of database servers. In other words, Python comes with a 
+lot of the pieces I'd been searching for over the past few years.
+
+While it was great finding that Python had a lot of the pieces to my puzzle, it was 
+another thing entirely realizing that putting all the pieces together into a workable 
+whole would prove to be anything but easy. Yes, Python can connect to any 
+database and retrieve and update data. Yes, Python has a graphical user interface. 
+No, connecting to a given database isn't the same as connecting to a different 
+database. And no, the user interface that comes with Python is not very modern.
+
+In the Fall of 2003, I set out to create a framework for developing data-aware 
+applications in Python, using a GUI toolkit I'd just learned about called wxWindows. 
+I'd actually heard about wxWindows before, but had discounted it thinking that it 
+was only for the Windows platform. They've since changed their name to wxWidgets 
+at Microsoft's request, which may keep future developers from being as confused 
+as I was. I named this framework 'Dabo', because it sounded fun and reminds me of 
+words like 'data', 'business', 'application', and 'objects'. Also, we were watching 
+Star Trek: Deep Space Nine at the time and I liked the Dabo Girls.
+
+I ended up learning the wxWidgets toolkit pretty well, but created a pile of spaghetti 
+code that had no separation between the database, the business rules, and the 
+user interface. It was really a mess and completely unmaintainable. I set the project 
+down for a few months, until I was contacted in March of 2004 by Ed Leafe, a 
+long-time FoxPro guru that was looking for ways to move his skillset over to open 
+source, multiplatform development - he was looking for the same things I'd been 
+seeking over the previous couple years. I decided to share my code with him, along 
+with a sample application, and he very diplomatically explained all the design 
+problems with my approach. We came up with an agreement to redesign Dabo from 
+the ground up, with a 3-tier model.
+
+By May of 2004 we announced our work to the public, got a website and mailing 
+lists, and encouragement from diverse areas of the open source, Python, and FoxPro 
+communities. As I write this in September 2004, Dabo is under active development, 
+the user interface is 80\% abstracted, 3 databases are supported, and a 
+user-interface graphical designer is underway. It is already possible to create 
+powerful data-aware applications and to deploy them to Windows, Linux, and 
+Macintosh.
